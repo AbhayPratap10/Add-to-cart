@@ -1,21 +1,67 @@
-# cocd14107a32082e1ee908234
+# Add To Cart App
 
-Quick start:
+A simple web application for managing a shopping cart, built using HTML, CSS, and JavaScript with Firebase Realtime Database.
 
-```
-$ npm install
-$ npm start
-````
+## Table of Contents
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Firebase Configuration](#firebase-configuration)
+- [Contributing](#contributing)
+- [License](#license)
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+## Features
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+- Add items to the shopping cart.
+- View and manage the shopping cart in real-time.
+- Firebase Realtime Database integration for data storage.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Getting Started
 
-Happy Coding!
+![HomeScreen](assets/Homescreen.png)
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- Modern web browser
+- Code editor (e.g., Visual Studio Code)
+
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/AbhayPratap10/shopping-cart-app.git
+    ```
+
+2. Open the project in your code editor.
+
+3. Open `index.html` in your web browser to see the application.
+
+## Usage
+
+1. Open `index.html` in a web browser.
+2. Enter the item name in the input field and click "Add to cart."
+3. View the shopping cart below, and double-click on an item to remove it.
+
+## Firebase Configuration
+
+This project uses Firebase Realtime Database. To configure your Firebase settings:
+
+1. Create a Firebase project: [Firebase Console](https://console.firebase.google.com/).
+2. Get your Firebase configuration object.
+3. Replace the Firebase configuration in `index.js` with your own.
+
+```javascript
+// Replace this with your Firebase configuration
+const firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID"
+};
