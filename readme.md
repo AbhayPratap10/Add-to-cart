@@ -1,4 +1,4 @@
-# Shopping Cart App
+# Add To Cart App
 
 A simple web application for managing a shopping cart, built using HTML, CSS, and JavaScript with Firebase Realtime Database.
 
